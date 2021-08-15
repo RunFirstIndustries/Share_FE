@@ -1,4 +1,4 @@
-<mat-toolbar color="primary" style="height: 8%; min-height: 50px">
+<mat-toolbar color="primary" style="height: 60px;">
   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="drawer.toggle()">
     <mat-icon>menu</mat-icon>
   </button>
@@ -6,7 +6,7 @@
   <span class="example-spacer"></span>
 </mat-toolbar>
 
-<div style="height: 92%">
+<div style="height: calc(100% - 60px);">
   <mat-sidenav-container class="sidenav-container">
     <mat-sidenav #drawer class="sidenav">
       Test Nav
